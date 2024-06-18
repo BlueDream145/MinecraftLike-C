@@ -1,0 +1,92 @@
+/*
+** EPITECH PROJECT, 2018
+** my_world
+** File description:
+** Block list
+*/
+
+#include	"world.h"
+
+block_evt_t	*get_block_evt_list(void)
+{
+	static block_evt_t	list[B_TOTAL] = {
+		{ B_GRASS,		sfKeyNum1,	0 },
+		{ B_STONE,		sfKeyNum2,	0 },
+		{ B_DIRT,		sfKeyNum3,	0 },
+		{ B_PLANK,		sfKeyNum4,	0 },
+		{ B_CITY_BLOCK,		sfKeyNum5,	0 },
+		{ B_WALL,		sfKeyNum6,	0 },
+		{ B_TNT,		sfKeyNum7,	0 },
+		{ B_BLACK,		sfKeyNum8,	0 },
+		{ B_GREY,		sfKeyNum9,	0 },
+		{ B_AZUL_BLOCK,		sfKeyNum0,	0 },
+		{ B_ROCK,		sfKeyNum1,	1 },
+		{ B_BEDROCK,		sfKeyNum2,	1 },
+		{ B_SAND,		sfKeyNum3,	1 },
+		{ B_GRAVEL,		sfKeyNum4,	1 },
+		{ B_WOOD,		sfKeyNum5,	1 },
+		{ B_WHITE_BLOCK,	sfKeyNum6,	1 },
+		{ B_GOLD_BLOCK,		sfKeyNum7,	1 },
+		{ B_DIAMOND_BLOCK,	sfKeyNum8,	1 },
+		{ B_EMERALD_BLOCK,	sfKeyNum9,	1 },
+		{ B_REDSTONE_BLOCK,	sfKeyNum0,	1 },
+		{ B_RED,		sfKeyNum1,	2 },
+		{ B_PINK,		sfKeyNum2,	2 },
+		{ B_LAPIS,		sfKeyNum3,	2 },
+		{ B_GOLD_ROCK,		sfKeyNum4,	2 },
+		{ B_IRON_ROCK,		sfKeyNum5,	2 },
+		{ B_LIBRARY,		sfKeyNum6,	2 },
+		{ B_RULED_WALL,		sfKeyNum7,	2 },
+		{ B_OBSIDIAN,		sfKeyNum8,	2 },
+		{ B_WORKBENCH,		sfKeyNum9,	2 },
+		{ B_FURNACE,		sfKeyNum0,	2 },
+		{ B_FURNACE_FIRE,	sfKeyNum1,	3 },
+		{ B_SPENCER1,		sfKeyNum2,	3 },
+		{ B_SPENCER2,		sfKeyNum3,	3 },
+		{ B_DARK_GREEN,		sfKeyNum4,	3 },
+		{ B_GREEN,		sfKeyNum5,	3 },
+		{ B_SOLID_SAND,		sfKeyNum6,	3 },
+		{ B_MOSS,		sfKeyNum7,	3 },
+		{ B_GLASS,		sfKeyNum8,	3 },
+		{ B_DIAMOND_ROCK,	sfKeyNum9,	3 },
+		{ B_REDSTONE_ROCK,	sfKeyNum0,	3 },
+		{ B_LEAF,		sfKeyNum1,	4 },
+		{ B_HEDGE,		sfKeyNum2,	4 },
+		{ B_SOLID_ROCK,		sfKeyNum3,	4 },
+		{ B_BROWN,		sfKeyNum4,	4 },
+		{ B_YELLOW,		sfKeyNum5,	4 },
+		{ B_WHITE,		sfKeyNum6,	4 },
+		{ B_CAGE,		sfKeyNum7,	4 },
+		{ B_SNOW,		sfKeyNum8,	4 },
+		{ B_ICE,		sfKeyNum9,	4 },
+		{ B_SNOW_DIRT,		sfKeyNum0,	4 },
+		{ B_CACTUS,		sfKeyNum1,	5 },
+		{ B_ENDER_DIRT,		sfKeyNum2,	5 },
+		{ B_ENCHANT,		sfKeyNum3,	5 },
+		{ B_DARK_LEAF,		sfKeyNum4,	5 },
+		{ B_BLUE,		sfKeyNum5,	5 },
+		{ B_LIGHT_BLUE,		sfKeyNum6,	5 },
+		{ B_WOODEN_DOOR1,	sfKeyNum7,	5 },
+		{ B_WOODEN_DOOR2,	sfKeyNum8,	5 },
+		{ B_IRON_DOOR1,		sfKeyNum9,	5 },
+		{ B_IRON_DOOR2,		sfKeyNum0,	5 },
+		{ B_CAVE_STONE,		sfKeyNum1,	6 },
+		{ B_DARK_HEDGE,		sfKeyNum2,	6 },
+		{ B_BED1,		sfKeyNum3,	6 },
+		{ B_BED2,		sfKeyNum4,	6 },
+		{ B_DARK_FRUIT,		sfKeyNum5,	6 },
+		{ B_PURPLE,		sfKeyNum6,	6 },
+		{ B_LIGHT_PURPLE,	sfKeyNum7,	6 },
+		{ B_RED_ROCK,		sfKeyNum8,	6 },
+		{ B_DARK_WOOD,		sfKeyNum9,	6 },
+		{ B_WHITE_WOOD,		sfKeyNum0,	6 },
+		{ B_BROWN_WOOD,		sfKeyNum1,	7 },
+		{ B_LAVA,		sfKeyNum2,	7 },
+		{ B_WATER,		sfKeyNum3,	7 },
+		{ B_CYAN,		sfKeyNum4,	7 },
+		{ B_ORANGE,		sfKeyNum5,	7 },
+		{ B_EMPTY,		sfKeyNum6,	7 }
+	};
+
+	return (list);
+}
